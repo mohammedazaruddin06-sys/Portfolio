@@ -89,12 +89,12 @@ export default function Hero() {
           {/* Glass Overlay for aesthetics */}
           <div className="absolute inset-0 z-10 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent pointer-events-none" />
           
-          <motion.div style={{ scale: scaleImage, y: yImage }} className="w-full h-full">
+          <motion.div style={{ scale: scaleImage, y: yImage }} className="w-full h-full bg-slate-900/50">
             <Image
               src="/profile.jpg"
               alt="Mohammed Azaruddin"
               fill
-              className="object-cover object-center"
+              className="object-contain p-4 lg:p-8"
               priority
             />
           </motion.div>

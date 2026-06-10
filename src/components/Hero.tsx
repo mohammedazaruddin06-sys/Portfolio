@@ -80,7 +80,7 @@ export default function Hero() {
 
         {/* Right Content: Portrait */}
         <motion.div 
-          className="flex-1 relative w-full max-w-[500px] lg:max-w-[600px] aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl shadow-amber-900/20 border border-slate-700/50"
+          className="flex-1 relative w-full max-w-[500px] lg:max-w-[600px] aspect-square rounded-[2rem] overflow-hidden shadow-2xl shadow-amber-900/20 border border-slate-700/50"
           initial={{ opacity: 0, scale: 0.9, rotateY: 15 }}
           animate={{ opacity: 1, scale: 1, rotateY: 0 }}
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
